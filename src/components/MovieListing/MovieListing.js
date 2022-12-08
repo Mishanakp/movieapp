@@ -30,7 +30,7 @@ const MovieListing = () => {
       ))
    ) : (
       <div className="movies-error">
-           <h3>{movies.Error}</h3>
+           <h3>{shows.Error}</h3>
       </div>
    );
   return (
